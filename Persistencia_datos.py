@@ -26,11 +26,3 @@ def delete(file_path):
     os.remove(file_path)
 
 
-# Ejecutar
-write("tiritiri.json", {"nombre": "Juan", "edad": 25})
-print(read("tiritiri.json"))
-update("tiritiri.json", "ciudad", "Sevilla")
-print(read("tiritiri.json"))
-clear("tiritiri.json")
-print(read("tiritiri.json"))
-delete("tiritiri.json")
