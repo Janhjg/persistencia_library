@@ -1,6 +1,6 @@
 import pytest
-from Persistencia_datos import *
 import os
+from data.Persistencia_datos import *
 
 def test_read():
     def test_archivo_no_existe():
